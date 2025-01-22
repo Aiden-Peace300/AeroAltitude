@@ -3,18 +3,11 @@ import logo from './images/aidensLogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import Projects from './Projects.tsx';
-import Skills from './Skills.tsx';
-import About from './About.tsx';
 import Pdf from './documents/Document.pdf';
 import { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { IoClose } from 'react-icons/io5';
-import { IconClicked } from './IconClicked.tsx';
-import Qualifications from './Qualifications.tsx';
-import Footer from './Footer.tsx';
-import Contact from './Contact.tsx';
-
+import Footer from './Footer'
 export default function App() {
   const [mobileNavVisible, setMobileNavVisible] = useState(false);
   const [emailPopupVisible, setEmailPopupVisible] = useState(false);
@@ -82,7 +75,7 @@ export default function App() {
                 </a>
               </div>
               <div className="meet-text">
-                <h2 className="position">Full-Stack React Developer</h2>
+                <h2 className="position">START HERE!</h2>
                 <p>
                   Hi, I'm Aiden Peace. A passionate Full-Stack React Developer
                   based in Lake Forest, California. 📍
@@ -119,7 +112,7 @@ export default function App() {
           </div>
         </div>
       </section>
-      <section id="services" className="services">
+      {/* <section id="services" className="services">
         <div className="container">
           <div className="skill-content">
             <div className="skills">
@@ -127,8 +120,8 @@ export default function App() {
             </div>
           </div>
         </div>
-      </section>
-      <section id="projects" className="projects">
+      </section> */}
+      {/* <section id="projects" className="projects">
         <div className="container">
           <div className="project-content">
             <div className="projects">
@@ -136,8 +129,8 @@ export default function App() {
             </div>
           </div>
         </div>
-      </section>
-      <section id="about" className="about">
+      </section> */}
+      {/* <section id="about" className="about">
         <div className="container">
           <div className="about-content">
             <div className="about">
@@ -145,8 +138,8 @@ export default function App() {
             </div>
           </div>
         </div>
-      </section>
-      <section id="qualifications" className="qualifications">
+      </section> */}
+      {/* <section id="qualifications" className="qualifications">
         <div className="container">
           <div className="qualifications-content">
             <div className="qualifications">
@@ -154,7 +147,7 @@ export default function App() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section id="footer" className="footer">
         <div className="container">
           <div className="footer-content">
