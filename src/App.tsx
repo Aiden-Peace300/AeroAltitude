@@ -56,7 +56,13 @@ export default function App() {
       )}
       <div className="image-container">
         <img className="landingPageDroneGif" src={landingPageDroneGif} alt="loading..." />
-        <p className="overlay-text">THIS IS TEXT I WANT OVER landingPageDroneGif</p>
+        <div className="text-container">
+          <p className="overlay-intro">SOUTHERN CALIFORNIA CAPTURED DATA</p>
+          <br />
+          <h3 className="overlay-heading">
+            EMBRACE THE <br /> LIMITLESS <br /> POTENTIAL OF <br /> DATA TECHNOLOGY
+          </h3>
+        </div>
       </div>
       {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}
       <section id="footer" className="footer">

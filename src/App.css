@@ -58,7 +58,7 @@ header {
 }
 
 .landingPageDroneGif {
-  width: 100vw;
+  width: 99vw;
   height: auto;
 }
 
@@ -114,11 +114,7 @@ button {
   display: inline-block; /* Ensures the container only takes the size of the image */
 }
 
-.overlay-text {
-  position: absolute;
-  top: 20%; /* Adjust to vertically center the text */
-  left: 25%; /* Adjust to horizontally center the text */
-  transform: translate(-50%, -50%); /* Perfect centering */
+.overlay-intro {
   color: white; /* Text color */
   font-size: 24px; /* Adjust size as needed */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Makes the text readable on any background */
@@ -126,94 +122,32 @@ button {
   text-align: center; /* Center-align the text */
 }
 
+.overlay-heading {
+  color: white; /* Text color */
+  font-size: 24px; /* Adjust size as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Makes the text readable on any background */
+  font-weight: bold; /* Optional for better visibility */
+  text-align: left; /* Center-align the text */
+}
+
+.text-container {
+  left: 25%; /* Adjust to horizontally center the text */
+  transform: translate(-50%, -50%); /* Perfect centering */
+  position: absolute;
+  top: 30%; /* Adjust to vertically center the text */
+  padding-left: 16px; /* Adjust this value for desired alignment */
+  margin: 0 auto;
+  text-align: left; /* Ensure left alignment */
+  max-width: 1200px; /* Optional: Limit width for better readability */
+}
+
 /******** END OF CSS FOR NAV BAR *******/
 
-/***** START OF CSS FOR ANNIMATION FOR THE PHOTO OF AIDEN ******/
-@keyframes morph {
-  0% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
-
-  50% {
-    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-  }
-
-  100% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
-}
-
-@media only screen and (width < 1365px) {
-  .contact-row {
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media only screen and (width < 940px) {
-  .photoOfAiden {
-    height: 15rem; 
-  }
-
-  .photoOfAiden_container {
-    width: 15rem;
-    background-position: 0%;
-    margin-top: 2rem;
-  }
-
-  .content div {
-    gap: 0;
-  }
-
-  .meet-text .position {
-    font-size: 2em;
-  }
-
-  #home {
-    margin-top: 0;
-  }
-}
-
-@media only screen and (width < 950px) {
-  .meet-text h2 {
-    font-size: 3rem;
-    line-height: 1.2;
-  }
-}
 
 @media only screen and (width < 600px) {
-  .services .container {
-    padding: 0 3rem;
-    margin: auto 0;
-  }
-
-  .meet .container {
-    padding: 0;
-    margin: auto 0;
-  }
-
-  .projects .container {
-    padding: 0 1rem;
-    margin: auto 0;
-  }
-
-  .about .container {
-    padding: 0 1rem;
-    margin: auto 0;
-  }
-
-  .qualifications .container {
-    padding: 0 1rem;
-    margin: auto 0;
-  }
-
   .footer .container {
     padding: 0 1rem;
     margin: auto 0;
-  }
-
-  .content {
-    padding-bottom: 0;
   }
 }
 
