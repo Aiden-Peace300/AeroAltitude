@@ -34,24 +34,15 @@ export default function App() {
           <nav className='nav_class'>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <a href="#">DRONE SERVICES</a>
               </li>
               <li>
-                <a href="#">Services</a>
-              </li>
-              <li>
-                <a href="#">Projects</a>
-              </li>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Qualifications</a>
+                <a href="#">INDUSTRIES</a>
               </li>
             </ul>
           </nav>
           <a className="cta" href="#contact" onClick={toggleEmailPopup}>
-            <button className="contact-button">Contact</button>
+            <button className="contact-button">GET A QUOTE</button>
           </a>
         </div>
         <div className="bars-icon" onClick={toggleMobileNav}>

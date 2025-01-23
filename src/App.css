@@ -4,11 +4,11 @@ the font to be used for the text
 inside the body 
 ************************************/
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&family=Outfit:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Hind&family=Noto+Sans&family=Nunito&family=Oxanium:wght@200..800&family=Tajawal:wght@500&display=swap");
 
 
 body {
-  font-family: "Outlet", sans-serif;
+  font-family: "Oxanium", serif;
   background-color: gray;
 }
 
@@ -24,7 +24,7 @@ li,
 a,
 .cta {
   /* stylelint-disable-next-line font-family-name-quotes */
-  font-family: "Outlet", sans-serif;
+  font-family: "Oxanium", serif;
   font-weight: 500;
   font-size: 20px;
   color: white;
@@ -90,7 +90,7 @@ header {
 }
 
 .nav__links li a:hover {
-  color: #0088a9;
+  color: #B04D23;
 }
 
 button {
@@ -99,16 +99,14 @@ button {
 
 .contact-button {
   padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
+  color: #FFFFFF;
+  background-color: #B04D23;
   border: none;
-  border-radius: 50px;
+  border-radius: 5px;
   cursor: pointer;
   transition: all 0.3 ease 0s;
-}
-
-.contact-button:hover,
-.resume-button:hover {
-  background-color: rgba(0, 136, 169, 0.8);
+  font-size: 1.1rem;
+  font-family: "Oxanium", serif;
 }
 
 /******** END OF CSS FOR NAV BAR *******/
