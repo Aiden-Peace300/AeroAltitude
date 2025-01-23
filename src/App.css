@@ -8,14 +8,12 @@ inside the body
 
 body {
   font-family: "Outlet", sans-serif;
-  color: #0088A9;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #24252a;
 }
 
 /******** START OF CSS FOR NAV BAR *******/
@@ -26,7 +24,7 @@ a,
   /* stylelint-disable-next-line font-family-name-quotes */
   font-family: "Outlet", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
 }
@@ -39,33 +37,56 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #2c2d33;
-  z-index: 1000; /* Set a high z-index to ensure it stays on top */
+  background-color: rgba(0, 0, 0, 0.0); /* Semi-transparent */
+  backdrop-filter: blur(5px); /* Adds a blur effect to the background */
+  z-index: 1000;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 15px 10%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for separation */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
   cursor: pointer;
   margin-right: auto;
+  width: 11%;
+  height: auto;
+  background-color: transparent;
+}
+
+.landingPageDroneGif {
+  width: 100vw;
+}
+
+.nav_class {
+  background-color: transparent;
 }
 
 .nav__links {
-  background-color: #2c2d33;
   list-style: none;
+  background-color: transparent;
   display: flex;
   align-items: center;
 }
 
+.nav__links li a {
+  background-color: rgba(0, 0, 0, 0.0); /* Fully opaque background for text */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
 .nav__links a {
-  background-color: #2c2d33;
+  background-color: transparent;
+  background-color: transparent;
+}
+
+.nav__links li ul {
+  background-color: transparent;
+  background-color: transparent;
 }
 
 .nav__links li {
-  background-color: #2c2d33;
   display: inline-block;
   padding: 0 20px;
 }
@@ -238,6 +259,12 @@ button {
   .content {
     padding-bottom: 0;
   }
+}
+
+.footer {
+  margin-top: 0;
+  padding-top: 0;
+  background-color: gray;
 }
 
 .bars-icon {

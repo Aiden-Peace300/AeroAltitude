@@ -1,5 +1,5 @@
 import './App.css';
-import logo from './images/aidensLogo.png';
+import logo from './images/load.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -8,6 +8,8 @@ import { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { IoClose } from 'react-icons/io5';
 import Footer from './Footer'
+import landingPageDroneGif from './images/landingPageDroneGif.gif'
+
 export default function App() {
   const [mobileNavVisible, setMobileNavVisible] = useState(false);
   const [emailPopupVisible, setEmailPopupVisible] = useState(false);
@@ -29,7 +31,7 @@ export default function App() {
       <header>
         <img className="logo" src={logo} alt="logo" />
         <div className="nav__links">
-          <nav>
+          <nav className='nav_class'>
             <ul>
               <li>
                 <a href="#">Home</a>
@@ -61,93 +63,8 @@ export default function App() {
           <IconClicked />
         </div>
       )}
+      <img className="landingPageDroneGif" src={landingPageDroneGif} alt="loading..." />
       {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}
-      <section id="home" className="meet">
-        <div className="container">
-          <div className="content">
-            <div className="meet-main">
-              <div className="photoOfAiden_container">
-                <a
-                href="https://github.com/Aiden-Peace300"
-                target="_blank"
-                rel="noopener noreferrer">
-                <div className="photoOfAiden"></div>
-                </a>
-              </div>
-              <div className="meet-text">
-                <h2 className="position">START HERE!</h2>
-                <p>
-                  Hi, I'm Aiden Peace. A passionate Full-Stack React Developer
-                  based in Lake Forest, California. 📍
-                </p>
-                <div className="contact-row">
-                  <a
-                    href="https://www.linkedin.com/in/aiden-peace-025918211/"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    <FontAwesomeIcon
-                      icon={faLinkedin}
-                      className="fab fa-linkedin"
-                    />
-                  </a>
-                  <a
-                    href="https://github.com/Aiden-Peace300"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    <FontAwesomeIcon
-                      icon={faGithub}
-                      className="fab fa-github"
-                    />
-                  </a>
-                  <a
-                    className="resume"
-                    href={Pdf}
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    <button className="resume-button">View Resume</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* <section id="services" className="services">
-        <div className="container">
-          <div className="skill-content">
-            <div className="skills">
-              <Skills />
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* <section id="projects" className="projects">
-        <div className="container">
-          <div className="project-content">
-            <div className="projects">
-              <Projects />
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* <section id="about" className="about">
-        <div className="container">
-          <div className="about-content">
-            <div className="about">
-              <About />
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* <section id="qualifications" className="qualifications">
-        <div className="container">
-          <div className="qualifications-content">
-            <div className="qualifications">
-              <Qualifications />
-            </div>
-          </div>
-        </div>
-      </section> */}
       <section id="footer" className="footer">
         <div className="container">
           <div className="footer-content">
