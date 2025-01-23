@@ -54,7 +54,10 @@ export default function App() {
           <IconClicked />
         </div>
       )}
-      <img className="landingPageDroneGif" src={landingPageDroneGif} alt="loading..." />
+      <div className="image-container">
+        <img className="landingPageDroneGif" src={landingPageDroneGif} alt="loading..." />
+        <p className="overlay-text">THIS IS TEXT I WANT OVER landingPageDroneGif</p>
+      </div>
       {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}
       <section id="footer" className="footer">
         <div className="container">

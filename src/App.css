@@ -109,6 +109,23 @@ button {
   font-family: "Oxanium", serif;
 }
 
+.image-container {
+  position: relative;
+  display: inline-block; /* Ensures the container only takes the size of the image */
+}
+
+.overlay-text {
+  position: absolute;
+  top: 20%; /* Adjust to vertically center the text */
+  left: 25%; /* Adjust to horizontally center the text */
+  transform: translate(-50%, -50%); /* Perfect centering */
+  color: white; /* Text color */
+  font-size: 24px; /* Adjust size as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Makes the text readable on any background */
+  font-weight: bold; /* Optional for better visibility */
+  text-align: center; /* Center-align the text */
+}
+
 /******** END OF CSS FOR NAV BAR *******/
 
 /***** START OF CSS FOR ANNIMATION FOR THE PHOTO OF AIDEN ******/
