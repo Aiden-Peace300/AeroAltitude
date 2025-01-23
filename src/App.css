@@ -6,8 +6,10 @@ inside the body
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&family=Outfit:wght@600&display=swap");
 
+
 body {
   font-family: "Outlet", sans-serif;
+  background-color: gray;
 }
 
 * {
@@ -37,7 +39,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.0); /* Semi-transparent */
+  background-color: rgba(0, 0, 0, 0.05); /* Semi-transparent */
   backdrop-filter: blur(5px); /* Adds a blur effect to the background */
   z-index: 1000;
   display: flex;
@@ -57,6 +59,7 @@ header {
 
 .landingPageDroneGif {
   width: 100vw;
+  height: auto;
 }
 
 .nav_class {
@@ -75,15 +78,6 @@ header {
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
-}
-.nav__links a {
-  background-color: transparent;
-  background-color: transparent;
-}
-
-.nav__links li ul {
-  background-color: transparent;
-  background-color: transparent;
 }
 
 .nav__links li {
@@ -112,24 +106,6 @@ button {
   transition: all 0.3 ease 0s;
 }
 
-.resume-button {
-  margin-left: 1rem;
-  margin-bottom: -1rem;
-  padding: 1.3rem 2rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3 ease 0s;
-  background-color: white;
-  color: #24252a;
-  font-weight: bold;
-}
-
-.contact-row {
-  display: flex;
-  justify-content: start;
-}
-
 .contact-button:hover,
 .resume-button:hover {
   background-color: rgba(0, 136, 169, 0.8);
@@ -149,41 +125,6 @@ button {
 
   100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
-}
-
-.photoOfAiden {
-  animation: morph 8s ease-in-out infinite;
-  background-image: url('./images/photoOfAiden.JPG');
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 3px solid white;
-  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  height: 27rem; /* change me to your needs */
-  position: relative;
-  transition: all 1s ease-in-out;
-}
-
-.photoOfAiden_container {
-  width: 35rem;
-}
-
-@media only screen and (width < 1369px) {
-  .meet-main {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 0;
-  }
-
-  .meet-text h1 {
-    padding-top: 0;
-  }
-
-  .skills {
-    margin-top: 5rem;
-    margin-bottom: 0;
   }
 }
 
@@ -321,119 +262,6 @@ a .fa-github {
 }
 
 /******* ENDING OF CSS FOR LINKEDIN AND GITHUB *********/
-
-/****** MARGIN FOR WEBSITE ********/
-.container {
-  margin: 0 auto;
-  max-width: 107rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-/****** MARGIN FOR WEBSITE ********/
-
-.content {
-  align-items: center;
-  display: flex;
-  gap: 10rem;
-  height: auto;
-  justify-content: center;
-  position: relative;
-}
-
-.meet-main {
-  align-items: center;
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  position: relative;
-  color: white;
-  margin-bottom: 20px;
-  margin-top: 4rem;
-}
-
-.meet-text h2 {
-  font-size: 5.5rem;
-  line-height: 1.2;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-}
-
-.meet-text p {
-  font-family: "Outlet", sans-serif;
-  font-size: 1.8rem;
-  font-weight: 500;
-  line-height: 1.6;
-}
-
-.meet {
-  margin-top: 10rem;
-  margin-bottom: 20rem;
-  background-color: #24252a;
-  display: flex;
-  flex-direction: column;
-  height: 51vh;
-  position: relative;
-  width: 100%;
-}
-
-/********
-.skills ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2.5rem;
-  list-style: none;
-}
-
-.skills {
-  border-right: 2px solid rgba(45,46,50,.5);
-  color: #2d2e32;
-  font-family: Mulish,sans-serif;
-  font-weight: 600;
-  margin-right: 7rem;
-  padding-right: 2rem;
-}
-
-*********/
-
-.skill-content {
-  /*
-  align-items: center;
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  position: relative;
-  */
-  color: white;
-
-  /*
-  margin-bottom: 20px;
-  */
-}
-
-.skills {
-  margin-bottom: 10rem;
-}
-
-.flex-container {
-  margin-top: 3.7rem;
-  display: row;
-  flex-wrap: wrap;
-  background-color: rgb(255, 255, 255);
-  position: fixed;
-  z-index: 980; /* Set a high z-index to ensure it stays on top */
-  width: 100%;
-}
 
 .icon-text {
   padding: 0.5rem 0;
