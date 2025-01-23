@@ -1,5 +1,5 @@
 import './App.css';
-import logo from './images/load.png';
+import logo from './images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -37,16 +37,16 @@ export default function App() {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="#services">Services</a>
+                <a href="#">Services</a>
               </li>
               <li>
-                <a href="#projects">Projects</a>
+                <a href="#">Projects</a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#">About</a>
               </li>
               <li>
-                <a href="#qualifications">Qualifications</a>
+                <a href="#">Qualifications</a>
               </li>
             </ul>
           </nav>
