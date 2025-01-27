@@ -9,7 +9,7 @@ inside the body
 
 body {
   font-family: "Oxanium", serif;
-  background-color: gray;
+  background-color: #65716d;
 }
 
 * {
@@ -142,7 +142,6 @@ ul .contact-button {
 .footer {
   margin-top: 0;
   padding-top: 0;
-  background-color: gray;
 }
 
 .bars-icon {
