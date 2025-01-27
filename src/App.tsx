@@ -8,6 +8,7 @@ import { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { IoClose } from 'react-icons/io5';
 import Footer from './Footer'
+import Welcome from './Welcome.tsx'
 import landingPageDroneGif from './images/landingPageDroneGif.gif'
 
 export default function App() {
@@ -54,25 +55,8 @@ export default function App() {
           <IconClicked />
         </div>
       )}
-      <div className="image-container">
-        <img className="landingPageDroneGif" src={landingPageDroneGif} alt="loading..." />
-        <div className="text-container">
-          <ul class="dash">
-            <li className="overlay-intro">SOUTHERN CALIFORNIA CAPTURED DATA</li>
-          </ul>
-          <br />
-          <h3 className="overlay-heading">
-            EMBRACE THE <br /> LIMITLESS <br /> POTENTIAL OF <br /> DATA TECHNOLOGY
-          </h3>
-          <br />
-          <p className="overlay-outro"> With southern California reach, proprietary software and game-changing aerial imaging, Aero Altitude connects data-seekers to professional data-capturers. We stand for unbound progress – unlocking the full potential of drone technology and aerial data.</p>
-          <br />
-          <br />
-          <a className="cta" href="#contact" onClick={toggleEmailPopup}>
-            <button className="contact-button">GET A QUOTE</button>
-          </a>
-        </div>
-
+      <div>
+        <Welcome />
       </div>
       {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}
       <section id="footer" className="footer">
