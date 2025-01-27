@@ -45,7 +45,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 15px 10%;
+  padding: 15px 8%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -60,6 +60,7 @@ header {
 .landingPageDroneGif {
   width: 99vw;
   height: auto;
+  opacity: .85;
 }
 
 .nav_class {
@@ -125,8 +126,20 @@ button {
   padding-left: 15px;
 }
 
+.overlay-outro {
+  text-align: left !important;
+  color: white; /* Text color */
+  font-size: 24px; /* Adjust size as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Makes the text readable on any background */
+  font-weight: bold; /* Optional for better visibility */
+  text-align: center; /* Center-align the text */
+  font-weight: 150;
+  padding: 0;
+  width: 750px;
+}
+
 .dash > li {
-  list-style-type: "━━" 
+  list-style-type: "━" 
 }
 
 .dash li::marker {
@@ -134,7 +147,7 @@ button {
 }
 
 .dash {
-  padding-left: 50px; /* Adds space to the left to accommodate the bullet */
+  padding-left: 30px; /* Adds space to the left to accommodate the bullet */
   margin-left: 0;
 }
 
@@ -154,10 +167,10 @@ button {
   justify-content: left;
   font-family: "Oxanium", serif;
   font-weight: 300;
-  left: 25%; /* Adjust to horizontally center the text */
+  left: 31%; /* Adjust to horizontally center the text */
   transform: translate(-50%, -50%); /* Perfect centering */
   position: absolute;
-  top: 40%; /* Adjust to vertically center the text */
+  top: 46%; /* Adjust to vertically center the text */
   margin-left: 0; /* Adjust this value for desired alignment */
   margin: 0 auto;
   text-align: left; /* Ensure left alignment */

@@ -64,7 +64,15 @@ export default function App() {
           <h3 className="overlay-heading">
             EMBRACE THE <br /> LIMITLESS <br /> POTENTIAL OF <br /> DATA TECHNOLOGY
           </h3>
+          <br />
+          <p className="overlay-outro"> With southern California reach, proprietary software and game-changing aerial imaging, Aero Altitude connects data-seekers to professional data-capturers. We stand for unbound progress – unlocking the full potential of drone technology and aerial data.</p>
+          <br />
+          <br />
+          <a className="cta" href="#contact" onClick={toggleEmailPopup}>
+            <button className="contact-button">GET A QUOTE</button>
+          </a>
         </div>
+
       </div>
       {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}
       <section id="footer" className="footer">
