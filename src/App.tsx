@@ -57,7 +57,9 @@ export default function App() {
       <div className="image-container">
         <img className="landingPageDroneGif" src={landingPageDroneGif} alt="loading..." />
         <div className="text-container">
-          <p className="overlay-intro">SOUTHERN CALIFORNIA CAPTURED DATA</p>
+          <ul class="dash">
+            <li className="overlay-intro">SOUTHERN CALIFORNIA CAPTURED DATA</li>
+          </ul>
           <br />
           <h3 className="overlay-heading">
             EMBRACE THE <br /> LIMITLESS <br /> POTENTIAL OF <br /> DATA TECHNOLOGY
