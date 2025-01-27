@@ -60,7 +60,7 @@ header {
 .landingPageDroneGif {
   width: 99vw;
   height: auto;
-  opacity: .85;
+  opacity: .88;
 }
 
 .nav_class {
@@ -98,8 +98,9 @@ button {
   cursor: pointer;
 }
 
-.contact-button {
-  padding: 9px 25px;
+ul .contact-button {
+  padding: 9px 20px;
+  margin: 0 25px;
   color: #FFFFFF;
   background-color: #B04D23;
   border: none;
@@ -108,6 +109,20 @@ button {
   transition: all 0.3 ease 0s;
   font-size: 1.1rem;
   font-family: "Oxanium", serif;
+  word-spacing: 5px;
+}
+
+.contact-button {
+  padding: 9px 20px;
+  color: #FFFFFF;
+  background-color: #B04D23;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+  font-size: 1.1rem;
+  font-family: "Oxanium", serif;
+  word-spacing: 5px;
 }
 
 .image-container {
@@ -170,7 +185,7 @@ button {
   left: 31%; /* Adjust to horizontally center the text */
   transform: translate(-50%, -50%); /* Perfect centering */
   position: absolute;
-  top: 46%; /* Adjust to vertically center the text */
+  top: 50%; /* Adjust to vertically center the text */
   margin-left: 0; /* Adjust this value for desired alignment */
   margin: 0 auto;
   text-align: left; /* Ensure left alignment */

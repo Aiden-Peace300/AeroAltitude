@@ -39,11 +39,11 @@ export default function App() {
               <li>
                 <a href="#">INDUSTRIES</a>
               </li>
+              <a className="cta" href="#contact" onClick={toggleEmailPopup}>
+                <button className="contact-button">GET A QUOTE</button>
+              </a>
             </ul>
           </nav>
-          <a className="cta" href="#contact" onClick={toggleEmailPopup}>
-            <button className="contact-button">GET A QUOTE</button>
-          </a>
         </div>
         <div className="bars-icon" onClick={toggleMobileNav}>
           {mobileNavVisible ? <IoClose /> : <FontAwesomeIcon icon={faBars} />}
