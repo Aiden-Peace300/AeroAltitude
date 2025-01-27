@@ -6,7 +6,8 @@
 .landingPageDroneGif {
   width: 99vw;
   height: auto;
-  opacity: .88;
+  opacity: 0.88;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 75%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0) 100%);
 }
 
 .text-container {
