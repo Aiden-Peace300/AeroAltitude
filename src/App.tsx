@@ -45,7 +45,7 @@ export default function App() {
               <li>
                 <a href="#industry">INSIGHTS</a>
               </li>
-              <a className="cta" href="#contact" onClick={toggleEmailPopup}>
+              <a className="cta" href="#contact">
                 <button className="contact-button">GET A QUOTE</button>
               </a>
             </ul>
