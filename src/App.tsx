@@ -42,7 +42,7 @@ export default function App() {
                 <a href="#droneservices">DRONE SERVICES</a> 
               </li>
               <li>
-                <a href="#industries">INDUSTRIES</a> 
+                <a href="#industry">INDUSTRY INSIGHTS</a>
               </li>
               <a className="cta" href="#contact" onClick={toggleEmailPopup}>
                 <button className="contact-button">GET A QUOTE</button>
@@ -62,7 +62,7 @@ export default function App() {
       <section id="home">
         <Welcome />
       </section>
-      <section id="industries" style={{ paddingTop: '140px' }}>
+      <section id="industry" style={{ paddingTop: '140px' }}>
         <OverviewOfServices />
       </section>
       <section id="droneservices" style={{ paddingTop: '160px' }}>
