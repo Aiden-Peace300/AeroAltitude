@@ -23,18 +23,27 @@
   justify-content:space-between;
 }
 
-.photography {
+.photography, .discount_alert {
   border: solid 2px #B04D23;
   width: 30%;
   background-color: #B04D23;
   border-radius: 25px;
 }
 
+.discount_alert {
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 5rem;
+}
 
 .header_text {
   margin-top: 2rem;
   margin-bottom: 1rem;
   text-align: center;
+}
+
+.discount_header {
+  margin-bottom: .4rem;
 }
 
 .ul_content {
@@ -54,6 +63,12 @@
   padding-left: 10px;
 }
 
+
 .ul_content li:last-child {
   margin-bottom: 4rem;
+}
+
+.discount_text {
+  font-size: 25px;
+  font-weight: 150;
 }

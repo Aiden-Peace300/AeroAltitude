@@ -31,6 +31,10 @@ export default function Prices() {
         </div>
       </div>
       <h1 className="inspection_fee">STARTING AT $65 FOR LOCATION INSPECTION. TRAVEL FEES MAY APPLY.</h1>
+      <div className="discount_alert">
+        <h1 className="discount_header">DISCOUNT ALERT</h1>
+        <p className="discount_text">Back-to-Back Photo & Video: 10% discount on combined services</p>
+      </div>
     </div>
   );
 }
