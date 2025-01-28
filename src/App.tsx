@@ -8,11 +8,12 @@ import { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { IoClose } from 'react-icons/io5';
 import Footer from './Footer'
-import Welcome from './Welcome.tsx'
-import Prices from './Prices.tsx'
-import OverviewOfServices from './OverviewOfServices.tsx'
+import Welcome from './Welcome.tsx';
+import Prices from './Prices.tsx';
+import OverviewOfServices from './OverviewOfServices.tsx';
 
 export default function App() {
+  
   const [mobileNavVisible, setMobileNavVisible] = useState(false);
   const [emailPopupVisible, setEmailPopupVisible] = useState(false);
 
@@ -31,15 +32,17 @@ export default function App() {
   return (
     <div>
       <header>
-        <img className="logo" src={logo} alt="logo" />
+        <a href="#home" className="logo" > 
+          <img src={logo} alt="logo" style={{ height: 'auto', width: '50%', marginTop: '.5rem'}} />
+        </a>
         <div className="nav__links">
           <nav className='nav_class'>
             <ul>
               <li>
-                <a href="#">DRONE SERVICES</a>
+                <a href="#droneservices">DRONE SERVICES</a> 
               </li>
               <li>
-                <a href="#">INDUSTRIES</a>
+                <a href="#industries">INDUSTRIES</a> 
               </li>
               <a className="cta" href="#contact" onClick={toggleEmailPopup}>
                 <button className="contact-button">GET A QUOTE</button>
@@ -56,15 +59,15 @@ export default function App() {
           <IconClicked />
         </div>
       )}
-      <div>
+      <section id="home">
         <Welcome />
-      </div>
-      <div>
+      </section>
+      <section id="industries" style={{ paddingTop: '140px' }}>
         <OverviewOfServices />
-      </div>
-      <div>
+      </section>
+      <section id="droneservices" style={{ paddingTop: '160px' }}>
         <Prices />
-      </div>
+      </section>
       {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}
       <section id="footer" className="footer">
         <div className="container">
