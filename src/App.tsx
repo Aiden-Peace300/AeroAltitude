@@ -9,6 +9,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { IoClose } from 'react-icons/io5';
 import Footer from './Footer'
 import Welcome from './Welcome.tsx'
+import OverviewOfServices from './OverviewOfServices.tsx'
 
 export default function App() {
   const [mobileNavVisible, setMobileNavVisible] = useState(false);
@@ -56,6 +57,9 @@ export default function App() {
       )}
       <div>
         <Welcome />
+      </div>
+      <div>
+        <OverviewOfServices />
       </div>
       {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}
       <section id="footer" className="footer">

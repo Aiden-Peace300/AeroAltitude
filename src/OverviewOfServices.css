@@ -1,0 +1,52 @@
+.services {
+  margin-top: 4rem;
+  padding: 15px 8%;
+  color: white;
+}
+
+.header-text {
+  font-weight: 350;
+  font-size: 42px;
+  word-spacing: 5px;
+}
+
+.overview-text {
+  margin-top: .8rem;
+  width: 55%;
+  font-size: 22px;
+  font-weight: 100;
+  margin-bottom: .8rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; 
+  margin-top: 2rem;
+}
+
+.aerial_icon { 
+  display: flex; /* Make each child element a flex container */
+  align-self: self-start;
+  padding: .7rem;
+  border: 2px solid #B04D23;
+  font-size: 2rem;
+  margin-right: 1rem
+}
+
+.service-header {
+  font-size: 22px;
+  font-weight: 650;
+  margin-bottom: .3rem;
+}
+
+.service-text {
+  width: 75%;
+  font-size: 18px;
+}
+
+.services_overview {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4rem;
+}
