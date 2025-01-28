@@ -5,13 +5,15 @@
 }
 
 .header-text {
-  font-weight: 350;
+  font-weight: 600;
   font-size: 42px;
   word-spacing: 5px;
+  letter-spacing: 1px;
+  color: #b3694a
 }
 
 .overview-text {
-  margin-top: .8rem;
+  margin-top: .4rem;
   width: 55%;
   font-size: 22px;
   font-weight: 100;
@@ -23,6 +25,10 @@
   flex-direction: row;
   align-items: flex-start; 
   margin-top: 2rem;
+}
+
+.service:hover {
+  cursor: pointer;
 }
 
 .aerial_icon { 
@@ -40,8 +46,13 @@
   margin-bottom: .3rem;
 }
 
+.service-header:hover {
+  color: #b3694a; 
+  cursor: pointer;
+}
+
 .service-text {
-  width: 75%;
+  width: 85%;
   font-size: 18px;
 }
 
