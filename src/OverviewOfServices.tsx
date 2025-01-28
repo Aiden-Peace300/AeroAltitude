@@ -49,7 +49,7 @@ export default function OverviewOfService() {
           </div>
           <div>
             <h1 className="service-header">Consulting</h1>
-            <p className="service-text">Get your very own drone program off the ground with expert consulting from the FlyGuys team. We’ll also help ensure cost-efficiency, regulatory compliance, and safety.</p>
+            <p className="service-text">Get your very own drone program off the ground with expert consulting from the Aero Altitude team. We’ll also help ensure cost-efficiency, regulatory compliance, and safety.</p>
           </div>
         </div>
         <div className="service">

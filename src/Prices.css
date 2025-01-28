@@ -1,0 +1,44 @@
+.prices {
+  padding: 15px 8%;
+  color: white;
+}
+
+.free_consultation span {
+  color: #B04D23; /* Set the color of the span element to #B04D23 */
+}
+
+.rowOfPrices {
+  display: flex;
+  justify-content:space-between;
+}
+
+.photography {
+  border: solid 2px #B04D23;
+  width: 30%;
+  background-color: #B04D23;
+  border-radius: 25px;
+}
+
+.ul_content {
+  height: 25rem;
+  display: flex; /* Make ul_content a flex container */
+  flex-direction: column; /* Arrange li elements vertically */
+  justify-content: space-around; /* Center li elements vertically */
+}
+
+.header_text {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ul_content {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column; /* Change to column for vertical alignment */
+  justify-content: space-between; /* Center items vertically within the container */
+}
+
+.ul_content li{
+  margin-top: 20px;
+}

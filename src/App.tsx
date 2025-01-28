@@ -9,6 +9,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { IoClose } from 'react-icons/io5';
 import Footer from './Footer'
 import Welcome from './Welcome.tsx'
+import Prices from './Prices.tsx'
 import OverviewOfServices from './OverviewOfServices.tsx'
 
 export default function App() {
@@ -60,6 +61,9 @@ export default function App() {
       </div>
       <div>
         <OverviewOfServices />
+      </div>
+      <div>
+        <Prices />
       </div>
       {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}
       <section id="footer" className="footer">
