@@ -25,8 +25,9 @@ export default function Prices() {
         <div className="photography">
           <h1 className="header_text">BUNDLE PACK</h1>
           <ul className="ul_content">
-            <li>Photo & Video Combo (5 images + 15-second clip): $150</li>
-            <li>10 images + 45-second Clip Combo: $300</li>
+            <li>5 images + 15-Seconds Clip: $150</li>
+            <li>10 images + 45-Seconds Clip Combo: $300</li>
+            <li>15 images + 1-Minute and 30-Seconds Clip Combo: $550</li>
           </ul>
         </div>
       </div>
