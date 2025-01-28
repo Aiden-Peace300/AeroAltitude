@@ -20,37 +20,38 @@ export default function GetQuote() {
               Whether the project takes us to a major metropolitan city, a
               mid-sized town, or a rural area far away from civilization,
               we’re ready to deploy FAA-certified pilots and follow stringent
-              safety measures. Connect with FlyGuys for a quote, and let’s
+              safety measures. Connect with Aero Altitude for a quote, and let’s
               explore the right solution for you.
             </p>
           </div>
           <form className="quote-form graybox">
             <div className="form-group">
-              <label htmlFor="firstName">First Name:</label>
+              <label htmlFor="firstName">First Name*</label>
               <input type="text" id="firstName" name="firstName" required />
             </div>
             <div className="form-group">
-              <label htmlFor="lastName">Last Name:</label>
+              <label htmlFor="lastName">Last Name*</label>
               <input type="text" id="lastName" name="lastName" required />
             </div>
             <div className="form-group">
-              <label htmlFor="email">Email:</label>
+              <label htmlFor="email">Email*</label>
               <input type="email" id="email" name="email" required />
             </div>
             <div className="form-group">
-              <label htmlFor="phoneNumber">Phone Number:</label>
+              <label htmlFor="phoneNumber">Phone Number*</label>
               <input type="tel" id="phoneNumber" name="phoneNumber" required />
             </div>
             <div className="form-group">
-              <label htmlFor="inquiryType">Inquiry Type:</label>
+              <label htmlFor="inquiryType">Is this a personal inquiry or are you reaching out on behalf of a company?*</label>
               <select id="inquiryType" name="inquiryType" required>
-                <option value="personal">Personal Inquiry</option>
+                <option>Please Select</option>
+                <option value="personal">Personal</option>
                 <option value="company">On Behalf of a Company</option>
               </select>
             </div>
             <div className="form-group">
               <label htmlFor="projectDescription">
-                Describe what is needed for your drone imaging and data needs*:
+                Describe what is needed for your drone imaging and data needs*
               </label>
               <textarea
                 id="projectDescription"
@@ -60,9 +61,9 @@ export default function GetQuote() {
             </div>
             <div className="form-group">
               <label htmlFor="projectNeeded">When is the project needed?</label>
-              <input type="date" id="projectNeeded" name="projectNeeded" required />
+              <textarea id="projectNeeded" name="projectNeeded" required ></textarea>
             </div>
-            <button type="submit">Submit</button>
+            <button type="submit" className="submit_button">SUBMIT</button>
           </form>
         </div>
       </div>
