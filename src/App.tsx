@@ -8,7 +8,9 @@ import { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { IoClose } from 'react-icons/io5';
 import Footer from './Footer'
-import landingPageDroneGif from './images/landingPageDroneGif.gif'
+import Welcome from './Welcome.tsx'
+import Prices from './Prices.tsx'
+import OverviewOfServices from './OverviewOfServices.tsx'
 
 export default function App() {
   const [mobileNavVisible, setMobileNavVisible] = useState(false);
@@ -39,11 +41,11 @@ export default function App() {
               <li>
                 <a href="#">INDUSTRIES</a>
               </li>
+              <a className="cta" href="#contact" onClick={toggleEmailPopup}>
+                <button className="contact-button">GET A QUOTE</button>
+              </a>
             </ul>
           </nav>
-          <a className="cta" href="#contact" onClick={toggleEmailPopup}>
-            <button className="contact-button">GET A QUOTE</button>
-          </a>
         </div>
         <div className="bars-icon" onClick={toggleMobileNav}>
           {mobileNavVisible ? <IoClose /> : <FontAwesomeIcon icon={faBars} />}
@@ -54,7 +56,15 @@ export default function App() {
           <IconClicked />
         </div>
       )}
-      <img className="landingPageDroneGif" src={landingPageDroneGif} alt="loading..." />
+      <div>
+        <Welcome />
+      </div>
+      <div>
+        <OverviewOfServices />
+      </div>
+      <div>
+        <Prices />
+      </div>
       {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}
       <section id="footer" className="footer">
         <div className="container">

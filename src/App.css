@@ -9,7 +9,7 @@ inside the body
 
 body {
   font-family: "Oxanium", serif;
-  background-color: gray;
+  background-color: #2C3733;
 }
 
 * {
@@ -45,7 +45,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 15px 10%;
+  padding: 15px 8%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -58,8 +58,9 @@ header {
 }
 
 .landingPageDroneGif {
-  width: 100vw;
+  width: 99vw;
   height: auto;
+  opacity: .88;
 }
 
 .nav_class {
@@ -97,8 +98,9 @@ button {
   cursor: pointer;
 }
 
-.contact-button {
-  padding: 9px 25px;
+ul .contact-button {
+  padding: 9px 20px;
+  margin: 0 25px;
   color: #FFFFFF;
   background-color: #B04D23;
   border: none;
@@ -107,103 +109,39 @@ button {
   transition: all 0.3 ease 0s;
   font-size: 1.1rem;
   font-family: "Oxanium", serif;
+  word-spacing: 5px;
+}
+
+.contact-button {
+  padding: 9px 20px;
+  color: #FFFFFF;
+  background-color: #B04D23;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+  font-size: 1.1rem;
+  font-family: "Oxanium", serif;
+  word-spacing: 5px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block; /* Ensures the container only takes the size of the image */
 }
 
 /******** END OF CSS FOR NAV BAR *******/
 
-/***** START OF CSS FOR ANNIMATION FOR THE PHOTO OF AIDEN ******/
-@keyframes morph {
-  0% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
-
-  50% {
-    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-  }
-
-  100% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
-}
-
-@media only screen and (width < 1365px) {
-  .contact-row {
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media only screen and (width < 940px) {
-  .photoOfAiden {
-    height: 15rem; 
-  }
-
-  .photoOfAiden_container {
-    width: 15rem;
-    background-position: 0%;
-    margin-top: 2rem;
-  }
-
-  .content div {
-    gap: 0;
-  }
-
-  .meet-text .position {
-    font-size: 2em;
-  }
-
-  #home {
-    margin-top: 0;
-  }
-}
-
-@media only screen and (width < 950px) {
-  .meet-text h2 {
-    font-size: 3rem;
-    line-height: 1.2;
-  }
-}
-
 @media only screen and (width < 600px) {
-  .services .container {
-    padding: 0 3rem;
-    margin: auto 0;
-  }
-
-  .meet .container {
-    padding: 0;
-    margin: auto 0;
-  }
-
-  .projects .container {
-    padding: 0 1rem;
-    margin: auto 0;
-  }
-
-  .about .container {
-    padding: 0 1rem;
-    margin: auto 0;
-  }
-
-  .qualifications .container {
-    padding: 0 1rem;
-    margin: auto 0;
-  }
-
   .footer .container {
     padding: 0 1rem;
     margin: auto 0;
-  }
-
-  .content {
-    padding-bottom: 0;
   }
 }
 
 .footer {
   margin-top: 0;
   padding-top: 0;
-  background-color: gray;
 }
 
 .bars-icon {

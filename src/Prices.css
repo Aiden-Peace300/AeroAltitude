@@ -1,0 +1,59 @@
+.prices {
+  padding: 15px 8%;
+  color: white;
+}
+
+.free_consultation span {
+  color: #B04D23; /* Set the color of the span element to #B04D23 */
+  margin-bottom: 2rem;
+}
+
+.free_consultation {
+  margin-bottom: 2rem;
+}
+
+.inspection_fee {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: #B04D23;
+}
+
+.rowOfPrices {
+  display: flex;
+  justify-content:space-between;
+}
+
+.photography {
+  border: solid 2px #B04D23;
+  width: 30%;
+  background-color: #B04D23;
+  border-radius: 25px;
+}
+
+
+.header_text {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ul_content {
+  margin-left: 20px; /* so that the li dots aren't outside of square*/
+  display: flex; /* Make ul_content a flex container */
+  flex-direction: column; /* Arrange li elements vertically */
+  justify-content: center; /* Center li elements vertically */
+}
+
+.ul_content li {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: 150;
+  margin-bottom: 20px;
+  list-style-type: "-";
+  padding-left: 10px;
+}
+
+.ul_content li:last-child {
+  margin-bottom: 4rem;
+}

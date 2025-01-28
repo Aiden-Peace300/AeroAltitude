@@ -1,0 +1,63 @@
+.services {
+  margin-top: 4rem;
+  padding: 15px 8%;
+  color: white;
+}
+
+.header-text {
+  font-weight: 600;
+  font-size: 42px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  /* color: #b3694a */
+}
+
+.overview-text {
+  margin-top: .4rem;
+  width: 55%;
+  font-size: 22px;
+  font-weight: 100;
+  margin-bottom: .8rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; 
+  margin-top: 2rem;
+}
+
+.service:hover {
+  cursor: pointer;
+}
+
+.aerial_icon { 
+  display: flex; /* Make each child element a flex container */
+  align-self: self-start;
+  padding: .7rem;
+  border: 2px solid #B04D23;
+  font-size: 2rem;
+  margin-right: 1rem
+}
+
+.service-header {
+  font-size: 22px;
+  font-weight: 650;
+  margin-bottom: .3rem;
+}
+
+.service-header:hover {
+  color: #b3694a; 
+  cursor: pointer;
+}
+
+.service-text {
+  width: 85%;
+  font-size: 18px;
+}
+
+.services_overview {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10rem;
+}
