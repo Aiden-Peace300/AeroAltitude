@@ -42,7 +42,7 @@ export default function App() {
                 <a href="#droneservices">DRONE SERVICES</a> 
               </li>
               <li>
-                <a href="#industry">INDUSTRY INSIGHTS</a>
+                <a href="#industry">INSIGHTS</a>
               </li>
               <a className="cta" href="#contact" onClick={toggleEmailPopup}>
                 <button className="contact-button">GET A QUOTE</button>
