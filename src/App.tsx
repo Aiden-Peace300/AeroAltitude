@@ -11,6 +11,7 @@ import Footer from './Footer'
 import Welcome from './Welcome.tsx';
 import Prices from './Prices.tsx';
 import OverviewOfServices from './OverviewOfServices.tsx';
+import GetQuote from './GetQuote.tsx';
 
 export default function App() {
   
@@ -67,6 +68,9 @@ export default function App() {
       </section>
       <section id="droneservices" style={{ paddingTop: '160px' }}>
         <Prices />
+      </section>
+      <section id="contact" style={{ paddingTop: '160px' }}>
+        <GetQuote />
       </section>
       {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}
       <section id="footer" className="footer">

@@ -1,0 +1,23 @@
+.get_qoute {
+  padding: 15px 8%;
+  color: white;
+  margin-top: 7rem;
+}
+
+.qoute_container  {
+  display: flex;
+}
+
+.qoute_text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.graybox {
+  background-color: #EFE8E0;
+  width: 50%;
+  color: black
+}
