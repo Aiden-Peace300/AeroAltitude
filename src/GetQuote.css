@@ -1,0 +1,69 @@
+.get_qoute {
+  padding: 15px 8%;
+  color: white;
+  margin-top: -80px;
+  margin-bottom: 8rem;
+}
+
+.qoute_container  {
+  display: flex;
+}
+
+.qoute_text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.get_a_quote_header1 {
+  font-weight: 100;
+  font-size: 20px;
+  word-spacing: 2px;
+  padding-left: 15px;
+}
+
+.get_a_quote_header2 {
+  font-weight: 400;
+  font-size: 65px;
+  word-spacing: 5px;
+}
+
+.get_a_quote_text {
+  word-spacing: 5px;
+  font-weight: 100;
+  font-size: 15px;
+  width: 95%;
+}
+
+.graybox {
+  background-color: #EFE8E0;
+  width: 50%;
+  color: black
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2em;
+}
+
+.form-group input {
+  width: 100%;
+  height: 2rem;
+}
+
+.submit_button {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2em;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #B04D23;
+  color: white;
+  font-family: "Oxanium", serif;
+  font-weight: 400;
+  letter-spacing: 1.3px;
+}

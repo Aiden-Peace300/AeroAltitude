@@ -11,6 +11,7 @@ import Footer from './Footer'
 import Welcome from './Welcome.tsx';
 import Prices from './Prices.tsx';
 import OverviewOfServices from './OverviewOfServices.tsx';
+import GetQuote from './GetQuote.tsx';
 
 export default function App() {
   
@@ -44,7 +45,7 @@ export default function App() {
               <li>
                 <a href="#industry">INSIGHTS</a>
               </li>
-              <a className="cta" href="#contact" onClick={toggleEmailPopup}>
+              <a className="cta" href="#contact">
                 <button className="contact-button">GET A QUOTE</button>
               </a>
             </ul>
@@ -67,6 +68,9 @@ export default function App() {
       </section>
       <section id="droneservices" style={{ paddingTop: '160px' }}>
         <Prices />
+      </section>
+      <section id="contact" style={{ paddingTop: '125px' }}>
+        <GetQuote />
       </section>
       {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}
       <section id="footer" className="footer">
