@@ -69,7 +69,7 @@ export default function App() {
       <section id="droneservices" style={{ paddingTop: '160px' }}>
         <Prices />
       </section>
-      <section id="contact" style={{ paddingTop: '160px' }}>
+      <section id="contact" style={{ paddingTop: '125px' }}>
         <GetQuote />
       </section>
       {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}

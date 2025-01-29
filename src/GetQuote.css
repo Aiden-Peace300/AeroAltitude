@@ -1,7 +1,8 @@
 .get_qoute {
   padding: 15px 8%;
   color: white;
-  margin-top: 7rem;
+  margin-top: -80px;
+  margin-bottom: 8rem;
 }
 
 .qoute_container  {
@@ -14,6 +15,26 @@
   flex-direction: column;
   align-items: start;
   justify-content: center;
+}
+
+.get_a_quote_header1 {
+  font-weight: 100;
+  font-size: 20px;
+  word-spacing: 2px;
+  padding-left: 15px;
+}
+
+.get_a_quote_header2 {
+  font-weight: 400;
+  font-size: 65px;
+  word-spacing: 5px;
+}
+
+.get_a_quote_text {
+  word-spacing: 5px;
+  font-weight: 100;
+  font-size: 15px;
+  width: 95%;
 }
 
 .graybox {
