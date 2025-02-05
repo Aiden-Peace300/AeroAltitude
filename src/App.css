@@ -110,19 +110,6 @@ ul .contact-button {
   word-spacing: 5px;
 }
 
-.contact-button {
-  padding: 9px 20px;
-  color: #FFFFFF;
-  background-color: #B04D23;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3 ease 0s;
-  font-size: 1.1rem;
-  font-family: "Oxanium", serif;
-  word-spacing: 5px;
-}
-
 .image-container {
   position: relative;
   display: inline-block; /* Ensures the container only takes the size of the image */
@@ -155,6 +142,10 @@ ul .contact-button {
 
   .bars-icon {
     display: block;
+  }
+
+  ul .contact-button {
+    margin: 0;
   }
 }
 
@@ -218,14 +209,61 @@ a .fa-github {
   color: #0088a9;
 }
 
-@media only screen and (width < 600px) {
-  .skills {
-    margin-bottom: 4rem;
-    padding-top: 6.6rem;
-  }
 
-  html {
-    width: 100vw
-  }
-  
+
+
+
+
+
+
+
+
+/* When the mobile nav is active, apply these styles */
+.mobile-nav-active {
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent scrolling */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hide all sections except the nav */
+.mobile-nav-active section {
+  display: none;
+}
+
+/* Make the mobile nav take full screen */
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2C3733;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.mobile-nav ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+.mobile-nav ul li {
+  margin: 20px 0;
+}
+
+.mobile-nav ul li a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.exit_nav {
+  color: white;
+  font-size: 2rem;
 }
