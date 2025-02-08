@@ -1,14 +1,17 @@
 import './Welcome.css';
-import landingPageDroneGif from './images/landingPageDroneGif.gif'
+import landingPageDroneVideo from './images/landingPageDroneVideo.mp4'
 
 export default function Welcome() {
   return (
     <div className="gif-wrapper"> {/* New wrapper div */}
       <div className="image-container">
-        <img
+        <video
           className="landingPageDroneGif"
-          src={landingPageDroneGif}
-          alt="loading..."
+          autoPlay
+          loop
+          muted
+          playsInline
+          src={landingPageDroneVideo}
         />
         <div className="text-container">
           <ul className="dash">

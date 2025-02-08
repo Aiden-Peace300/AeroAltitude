@@ -4,10 +4,6 @@ html, body {
   padding: 0; /* Remove default padding */
 }
 
-.gif-wrapper {
-  overflow-x: hidden; /* Apply overflow-x only to the wrapper */
-}
-
 .image-container {
   position: relative;
   display: inline-block; /* Ensures the container only takes the size of the image */
@@ -85,6 +81,11 @@ html, body {
 
 /* Mobile-specific styles */
 @media only screen and (max-width: 768px) {
+
+  .gif-wrapper {
+    overflow-x: hidden; /* Apply overflow-x only to the wrapper */
+  }
+
   .landingPageDroneGif {
     transform: scale(5);
     width: 100vw; /* Ensure the GIF takes full width */
