@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AeroAltitude/static/css/main.521c3929.css",
-    "main.js": "/AeroAltitude/static/js/main.0ace2ab1.js",
-    "static/media/landingPageDroneGif.gif": "/AeroAltitude/static/media/landingPageDroneGif.dca03029040f30a81ba7.gif",
+    "main.css": "/AeroAltitude/static/css/main.c2ff7c73.css",
+    "main.js": "/AeroAltitude/static/js/main.2e18da53.js",
+    "static/media/landingPageDroneVideo.mp4": "/AeroAltitude/static/media/landingPageDroneVideo.126176456de494c39256.mp4",
     "static/media/logo.png": "/AeroAltitude/static/media/logo.3382f21eabfc000be9a2.png",
     "index.html": "/AeroAltitude/index.html",
-    "main.521c3929.css.map": "/AeroAltitude/static/css/main.521c3929.css.map",
-    "main.0ace2ab1.js.map": "/AeroAltitude/static/js/main.0ace2ab1.js.map"
+    "main.c2ff7c73.css.map": "/AeroAltitude/static/css/main.c2ff7c73.css.map",
+    "main.2e18da53.js.map": "/AeroAltitude/static/js/main.2e18da53.js.map"
   },
   "entrypoints": [
-    "static/css/main.521c3929.css",
-    "static/js/main.0ace2ab1.js"
+    "static/css/main.c2ff7c73.css",
+    "static/js/main.2e18da53.js"
   ]
 }
