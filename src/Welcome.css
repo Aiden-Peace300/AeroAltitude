@@ -82,7 +82,7 @@
   }
 
   .text-container {
-    left: 55%; /* Center horizontally */
+    left: 53%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Perfect centering */
     width: 100%; /* Adjust for smaller screens */
     padding: 0 10px; /* Add padding for better spacing */
@@ -110,7 +110,9 @@
 @media only screen and (max-width: 480px) {
   .image-container {
     margin-top: 20rem;
+    width: 100vw;
   }
+
   .overlay-heading {
     font-size: 30px; /* Even smaller font size for very small screens */
   }
