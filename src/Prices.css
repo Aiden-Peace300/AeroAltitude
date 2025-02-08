@@ -57,10 +57,10 @@
   margin-top: 10px;
   margin-left: 20px;
   font-size: 25px;
-  font-weight: 150;
   margin-bottom: 20px;
   list-style-type: "-";
   padding-left: 10px;
+  font-weight: 400;
 }
 
 
@@ -70,5 +70,22 @@
 
 .discount_text {
   font-size: 25px;
-  font-weight: 150;
+  font-weight: 400
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .rowOfPrices {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .photography {
+    width: 100%; /* Make each item take full width */
+    margin-bottom: 1rem; /* Add some space between stacked items */
+  }
+
+  .ul_content li {
+    margin-left: 5px;
+    margin-right: 10px;
+  }
 }
