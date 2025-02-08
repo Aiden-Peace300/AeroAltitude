@@ -85,9 +85,9 @@ export default function App() {
       <section id="droneservices" style={{ paddingTop: '160px' }}>
         <Prices />
       </section>
-      {/* <section id="contact" style={{ paddingTop: '125px' }}>
+      <section id="contact" style={{ paddingTop: '125px' }}>
         <GetQuote />
-      </section> */}
+      </section>
       <section id="footer" className="footer">
         <div className="container">
           <div className="footer-content">

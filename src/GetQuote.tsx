@@ -39,11 +39,11 @@ export default function GetQuote() {
   }, [state.succeeded]);
   return (
     <div>
-      <div style={{ width: '100%' }}>
+      <div className="background_photo_div">
         <img
           src="https://flyguys.com/wp-content/themes/flyguys/images/textures/Topographic-Background-Top.svg"
           alt="Get Quote SVG"
-          style={{ width: '100%' }}
+          className="background_photo"
         />
       </div>
       <div className="get_qoute">
