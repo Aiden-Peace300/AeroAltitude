@@ -1,3 +1,10 @@
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  width: 100%; /* Ensure the body takes full width */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
 .image-container {
   position: relative;
   display: inline-block; /* Ensures the container only takes the size of the image */
