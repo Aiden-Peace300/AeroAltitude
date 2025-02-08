@@ -1,10 +1,25 @@
 import './Welcome.css';
-import landingPageDroneGif from './images/landingPageDroneGif.gif'
+import landingPageDroneGif from './images/landingPageDroneGif.gif';
+import { useEffect, useRef } from 'react';
 
 export default function Welcome() {
+  const gifRef = useRef<HTMLImageElement>(null);
+
+  useEffect(() => {
+    if (gifRef.current) {
+      // Force the GIF to reload by appending a timestamp to the src
+      gifRef.current.src = `${landingPageDroneGif}?${new Date().getTime()}`;
+    }
+  }, []);
+
   return (
     <div className="image-container">
-    <img className="landingPageDroneGif" src={landingPageDroneGif} alt="loading..." />
+      <img
+        ref={gifRef}
+        className="landingPageDroneGif"
+        src={landingPageDroneGif}
+        alt="loading..."
+      />
     <div className="text-container">
       <ul class="dash">
         <li className="overlay-intro">SOUTHERN CALIFORNIA CAPTURED DATA</li>
