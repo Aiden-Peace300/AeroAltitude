@@ -6,7 +6,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import Pdf from './documents/Document.pdf';
 import { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { IoClose } from 'react-icons/io5';
+import { IoArrowBack } from 'react-icons/io5';
 import Footer from './Footer'
 import Welcome from './Welcome.tsx';
 import Prices from './Prices.tsx';
@@ -20,6 +20,11 @@ export default function App() {
 
   const toggleMobileNav = () => {
     setMobileNavVisible(!mobileNavVisible);
+    if (!mobileNavVisible) {
+      document.body.classList.add("mobile-nav-active");
+    } else {
+      document.body.classList.remove("mobile-nav-active");
+    }
   };
 
   const toggleEmailPopup = () => {
@@ -52,12 +57,23 @@ export default function App() {
           </nav>
         </div>
         <div className="bars-icon" onClick={toggleMobileNav}>
-          {mobileNavVisible ? <IoClose /> : <FontAwesomeIcon icon={faBars} />}
+          {mobileNavVisible ? <IoArrowBack /> : <FontAwesomeIcon icon={faBars} />}
         </div>
       </header>
       {mobileNavVisible && (
-        <div className="list-container">
-          <IconClicked />
+        <div>
+          <nav className="mobile-nav">
+            <ul className="mobile-nav-ul-tag">
+              <li><a onClick={toggleMobileNav}><IoArrowBack /></a></li>
+              <li><a href="#droneservices" onClick={toggleMobileNav}>DRONE SERVICES</a></li>
+              <li><a href="#industry" onClick={toggleMobileNav}>INSIGHTS</a></li>
+              <li>
+                <a className="cta" href="#contact" onClick={toggleMobileNav}>
+                  <button className="contact-button">GET A QUOTE</button>
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
       )}
       <section id="home">
