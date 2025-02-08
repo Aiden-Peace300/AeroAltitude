@@ -110,6 +110,19 @@ ul .contact-button {
   word-spacing: 5px;
 }
 
+.contact-button {
+  padding: 9px 20px;
+  color: #FFFFFF;
+  background-color: #B04D23;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+  font-size: 1.1rem;
+  font-family: "Oxanium", serif;
+  word-spacing: 5px;
+}
+
 .image-container {
   position: relative;
   display: inline-block; /* Ensures the container only takes the size of the image */
