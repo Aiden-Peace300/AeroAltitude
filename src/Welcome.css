@@ -72,3 +72,54 @@
   padding: 0;
   width: 750px;
 }
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 768px) {
+  .landingPageDroneGif {
+    transform: scale(5);
+    width: 100%; /* Ensure the GIF takes full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .text-container {
+    left: 55%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Perfect centering */
+    width: 100%; /* Adjust for smaller screens */
+    padding: 0 10px; /* Add padding for better spacing */
+  }
+
+  .overlay-heading {
+    font-size: 40px; /* Smaller font size for mobile */
+    line-height: 1.2; /* Improve readability */
+  }
+
+  .overlay-intro {
+    font-size: 18px; /* Smaller font size for mobile */
+  }
+
+  .overlay-outro {
+    font-size: 18px; /* Smaller font size for mobile */
+    width: 100%; /* Full width for smaller screens */
+  }
+
+  .dash {
+    padding-left: 20px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .image-container {
+    margin-top: 20rem;
+  }
+  .overlay-heading {
+    font-size: 30px; /* Even smaller font size for very small screens */
+  }
+
+  .overlay-intro {
+    font-size: 16px; /* Even smaller font size for very small screens */
+  }
+
+  .overlay-outro {
+    font-size: 16px; /* Even smaller font size for very small screens */
+  }
+}
