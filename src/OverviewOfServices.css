@@ -60,3 +60,28 @@
   display: flex;
   flex-direction: row;
 }
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 768px) {
+  .services_overview {
+    flex-direction: column; /* Change to one column layout */
+  }
+
+  .col_1,
+  .col_2 {
+    width: 100%; /* Ensure each column takes full width */
+  }
+
+  .overview-text {
+    width: 100%; /* Make the text take full width */
+  }
+
+  .service-text {
+    width: 100%; /* Make the service text take full width */
+  }
+
+  .services {
+    padding-top: 8rem;
+    margin-top: 0;
+  }
+}

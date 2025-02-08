@@ -79,16 +79,16 @@ export default function App() {
       <section id="home">
         <Welcome />
       </section>
-      <section id="industry" style={{ paddingTop: '140px' }}>
+      <section id="industry">
         <OverviewOfServices />
       </section>
-      <section id="droneservices" style={{ paddingTop: '160px' }}>
+      {/* <section id="droneservices" style={{ paddingTop: '160px' }}>
         <Prices />
       </section>
       <section id="contact" style={{ paddingTop: '125px' }}>
         <GetQuote />
       </section>
-      {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}
+      {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />} */}
       <section id="footer" className="footer">
         <div className="container">
           <div className="footer-content">

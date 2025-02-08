@@ -148,6 +148,10 @@ ul .contact-button {
   color: white;
 }
 
+#industry {
+  padding-top: 140px;
+}
+
 @media only screen and (width < 700px) {
   .nav__links {
     display: none;
@@ -160,6 +164,11 @@ ul .contact-button {
   ul .contact-button {
     margin: 0;
   }
+
+  #industry {
+    padding-top: 0px;
+  }
+
 }
 
 /* stylelint-disable-next-line media-feature-range-notation */
