@@ -32,7 +32,7 @@ This project is not just a portfolio piece — it's the first step in launching 
 
 ## 🔗 Live Preview
 
-_Coming soon — hosted deployment in progress._
+[URL](https://aiden-peace300.github.io/AeroAltitude/)
 
 ## 📄 Future Improvements
 
@@ -42,7 +42,7 @@ _Coming soon — hosted deployment in progress._
 
 ## 📬 Contact
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com) or check out more of my work on [GitHub](https://www.github.com).
+Feel free to connect with me on [LinkedIn]([https://www.linkedin.com](https://www.linkedin.com/in/aiden-peace-025918211/) or check out more of my work on [GitHub](https://github.com/Aiden-Peace300).
 
 ---
 
