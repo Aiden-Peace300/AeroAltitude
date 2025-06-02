@@ -1,62 +1,49 @@
-# [AeroAltitude](https://aiden-peace300.github.io/AeroAltitude/)
+# Drone Services Website 🚁
 
-## Overview
+This is a professional drone service website built using **React**, **Typescript**, **Node.js**, and **CSS**, blending my background in computer science with my passion for being a drone pilot. The site provides an overview of drone-related services, pricing, and a direct contact option for quotes.
 
-Welcome to Aiden Peace's portfolio web app! As a Full-Stack React Developer based in Lake Forest, California, I bring a passion for technology and a diverse skill set to the table. This portfolio reflects my journey, showcasing not only my technical expertise but also the unique blend of interests that define me.
+## 🌟 About the Project
 
-## Features
+As a certified drone pilot and developer, I wanted to create a platform that reflects both my technical skills and my love for aerial photography and data capture. This site is the result of that effort — an elegant and responsive single-page application that offers:
 
-### Tech Stack Abilities
+- A dynamic UI with mobile navigation
+- Clear breakdowns of service offerings and pricing
+- Smooth user interaction using React state management
+- Integrated PDF brochure and social links
+- Quote request form and contact section
 
-- JavaScript (ES6)
-- TypeScript
-- HTML5
-- CSS3
-- React
-- Python
-- C++
-- Git
-- Vim
-- AWS
-- Figma
+## 🔧 Technologies Used
 
-And more! My proficiency extends across a range of technologies, allowing me to create dynamic and engaging web applications.
+- **Frontend:** React, CSS Modules, Font Awesome, React Icons
+- **Backend:** Node.js (planned for expansion with backend integrations)
+- **Assets:** Custom logo, downloadable PDF, styled components
 
-### About Me
+## 📁 Features
 
-Embark on a journey into the various facets of who I am. From my role as a Full Stack Developer to my passion for vinyl, stargazing, and Muy Thai, explore the intersections where technology, music, the cosmos, and physical excellence converge.
+- Mobile responsive navigation menu
+- Service overview with categorized pricing
+- Quote form with email popup logic
+- Social media integration (LinkedIn, GitHub)
+- Reusable components: `Footer`, `Welcome`, `OverviewOfServices`, `Prices`, `GetQuote`
 
-### Projects
+## 🧠 Developer Insight
 
-#### FilmCritic
+This project is not just a portfolio piece — it's the first step in launching my drone services business. It demonstrates my ability to apply practical programming skills to real-world entrepreneurship.
 
-FilmCritic is a social media app designed for film enthusiasts. Powered by React with TypeScript and Express, it leverages AI for an enhanced cinematic experience. PostgreSQL ensures robust data storage, and JWT-based authentication prioritizes user safety. Explore profiles, watchlists, and user-generated content with seamless control over CRUD operations.
+## 🔗 Live Preview
 
-#### Keyword Relief
+_Coming soon — hosted deployment in progress._
 
-Keyword Relief is your linguistic sidekick, rescuing you from word-finding dilemmas. Utilizing AI and asynchronous magic, this application fetches data from a REST API to provide personalized information. JavaScript event listeners and custom functions enhance page transitions and create personalized vocabulary lists.
+## 📄 Future Improvements
 
-### Qualifications
+- Backend integration with Node.js + Express for handling contact form submissions
+- Authentication for business clients
+- Gallery for aerial project samples
 
-#### Saddleback College
+## 📬 Contact
 
-Graduating with an Associate of Science in Computer Science, my journey at Saddleback College involved balancing a full-time job, active involvement in NASA programs, and coursework covering Data Structures, Discrete Math, Python, Java, Calculus 2, and more. View my CS Degree, NASA Proposal, and Awards.
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com) or check out more of my work on [GitHub](https://www.github.com).
 
-#### LearningFuze
+---
 
-Enrolling in LearningFuze, the #1 coding bootcamp in Southern California, I completed a 14-week Accelerated Web Development Program. Mastery of JavaScript, HTML, CSS, TypeScript, React, Node, and Express, along with successful projects like FilmCritic and Keyword Relief, showcase my ability to thrive in a dynamic coding environment.
-
-## How to Run the Project
-
-To explore this portfolio locally, follow these steps:
-
-1. Clone the repository: `git clone [repository-url]`
-2. Navigate to the project directory: `cd [directory-name]`
-3. Install dependencies: `npm install`
-4. Run the development server: `npm start`
-
-## Conclusion
-
-Thank you for visiting my portfolio web app! I invite you to explore the projects, learn about my qualifications, and connect with me on this intricate adventure that intertwines technology, music, the cosmos, and the pursuit of excellence. Feel free to reach out and follow me on my journey. 🚀🌌
-
-© Aiden Peace, 2023. All rights reserved.
+Built with code and care by Aiden Peace 💻✈️
